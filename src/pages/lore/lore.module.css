@@ -1,0 +1,202 @@
+
+
+.roadmap{
+    margin-top: 3rem;
+      color: hsl(0, 0%, 45%);
+}
+
+    p{
+        font-size: 1.3rem;
+            
+     
+    }
+.card1{
+
+    padding-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 39%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 8rem;
+    width: 20rem;
+    justify-self: center;
+ 
+}
+.card2{
+    
+    padding-top: .2rem;
+    padding-bottom: .42rem;
+     padding-left: .5rem;
+     padding-right: .5rem;
+    margin-bottom: 1.4rem;
+    border: 2px solid hsl(195, 53%, 39%);
+    color: hsl(195, 53%, 39%);
+    
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 7rem;
+    width: 21.5rem;
+    justify-self: center;
+    
+}
+.card3{
+       
+    background-size: cover;
+    padding-top: .5rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 29%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 10rem;
+    width: 21rem;
+    justify-self: center;
+    
+    li{
+        margin-top: .6rem;
+    }
+    
+}
+.card3:hover{
+     transform: rotateY(-8deg) rotateY(-10deg);
+}
+.card4{
+  
+    padding-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 29%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 7rem;
+    width: 20rem;
+    justify-self: center;
+
+      li{
+        margin-top: .6rem;
+    }
+    
+    
+}
+.card5{
+     
+    background-size: cover;
+    padding-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 29%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 7rem;
+    width: 22rem;
+    justify-self: center;
+
+      li{
+        margin-top: .6rem;
+    }
+    
+    
+}
+.card6{
+ 
+    padding-top: .4rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 29%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 10rem;
+    width: 22rem;
+    justify-self: center;
+
+    
+      li{
+        margin-top: .5rem;
+    }
+    
+}
+.card7{
+ 
+    padding-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: 3px solid hsl(195, 53%, 39%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 11rem;
+    width: 22.3rem;
+    font-size:em;
+    justify-self: center;
+    
+
+    p{
+        font-size: 1.1rem;
+        color: hsl(195, 53%, 39%);
+            
+
+    }
+    
+}
+.card8{
+     
+    background-size: cover;
+    padding-top: 1rem;
+    padding-left: rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 29%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 7rem;
+    width: 20rem;
+    justify-self: center;
+    
+}
+.card9{
+
+    padding-top: .4rem;
+    padding:.5rem ;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 29%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 9rem;
+    width: 21rem;
+    justify-self: cente
+    
+
+}
+p{
+    margin-bottom: -.2rem;
+}
+
+@media(min-width:50em){
+    
+.roadmap{
+    margin-top: 3rem;
+    margin-left: 2rem;
+      color: hsl(0, 0%, 65%);
+}
+    .header{
+        justify-self: center;
+        margin-left: 2rem;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .card2{
+        margin-left: 2rem;
+    }
+     .card4{
+        margin-left: 2rem;
+    }
+      .card6{
+        margin-left: 2rem;
+    }
+    .card7{
+        margin-left: 2rem;
+        margin-top: rem;
+    }
+    .card9{
+        margin-top: 2rem;
+    }
+      .card8{
+        margin-left: 10rem;
+        justify-self: center;
+    }
+}

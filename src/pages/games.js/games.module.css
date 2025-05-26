@@ -1,0 +1,27 @@
+.card9{
+    
+    justify-self: center;
+    margin-top: 10rem;
+    padding-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: .1px solid hsl(195, 53%, 49%);
+    border-radius: 1.7rem;
+    text-align: center;
+    height: 9rem;
+    width: 22.5rem;
+    justify-self: center;
+
+    p{
+        font-size: 1.2rem;
+        color: gray;
+
+    }
+    
+}
+
+@media(min-width:50em){
+    .card9{
+        margin-left: 4rem;
+        
+    }
+}
