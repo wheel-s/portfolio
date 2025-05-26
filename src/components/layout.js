@@ -1,8 +1,6 @@
 import React from 'react'
-import { useState } from 'react'
-import Sidebar from './side-bar'
-import MobileNav from './mobileNav'
-import menu from '../images/menu.png'
+
+
 import more from '../images/road.png'
 
 
@@ -11,25 +9,14 @@ import logo from '../images/logo.png'
 
 const Layout = () => {
 
-  const url = logo || 'image'
-    const [IsOpen, setIsOpen] = useState(false)
-    function openMenu(){
       
-      setIsOpen(true)
-    }
-    
-  function closeMenu(){
-    
-    setIsOpen(false)
-}
 
 
-    const loggedIn = {firstName:'Adran', lastName:'JSM'}
 
   return (
     <div >
       <div className='sidebar'>
-      <Sidebar user={loggedIn} />
+    
       </div>
     
 
@@ -37,7 +24,7 @@ const Layout = () => {
           
           <div className='nav'>
             
-          <img src={menu} alt={'yes'} width={29} height={29} className='navbar' onClick={openMenu}></img>
+
             <p className='nam'>my-portfolio</p>
             <div>
           
@@ -51,8 +38,7 @@ const Layout = () => {
           </div>
          
         </div>
-        
-           {IsOpen &&  <MobileNav onCancel={closeMenu}/> }
+      
             
     </div>
   )

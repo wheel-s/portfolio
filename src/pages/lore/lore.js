@@ -1,6 +1,7 @@
 import React from 'react'
 import lore from './lore.module.css'
 import Layout from '../../components/layout'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -67,6 +68,8 @@ const Lore = () => {
               
                 I actively keep up to date with the latest developments and best practices, seeking opportunities to expand skills sets and 
                 explore emerging technologies in web development landscape.
+              
+             <h3> <NavLink to='/contact'>  @contact me</NavLink></h3>
               </p></div>
           </div>
         </div>

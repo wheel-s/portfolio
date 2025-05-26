@@ -81,9 +81,10 @@ body {
       
  font-family: "Tajawal", sans-serif;
   padding-top: rem;
+  color: white;
 }
 .mobilenav{
-  display: none;
+  
 }
 .navbar{
   margin-top: -3rem;
@@ -92,293 +93,11 @@ body {
   top:.3rem;
   
 }
-.signin{
-  display: flex;
-  justify-content: center;
-  margin-left: 4rem;
-
-}
-.hi{
-  margin-left: 1rem;
-     padding: .5rem 2px 1rem 2px;
-    margin-bottom: 2rem;
-    border: .1px solid hsl(190, 53%, 29%);
-    border-radius: 1.7rem;
-    text-align: center;
-    height: 18rem;
-    width: 17.4rem;
-  transition: all ease-in-out 1s;
- 
-    
-}
-.hi:hover{
-  transform: rotateY(-11deg) rotateY(-30deg);
-}
-.hey{
-  display: flex;
-  justify-items: center;
-  margin-bottom: .9rem;
-  border-radius: 1.4rem;
-  margin: .8rem;
-  margin-left: 1.5rem;
- 
- 
-   
-
-}
-.hi p{
-  font-size: 1rem;
-  margin-top: -.5rem;
-  font-family: 'shadows into light';
-  letter-spacing: 1px;
-  color: hsl(185, 90%, 40%);
-
-}
-.form{
-  label{
-    display: block;
-    margin-bottom: .5rem;
-    font-size: 1.1rem;
-    color: bisque;
-
-  }
-  input{
-    padding: .5rem 1rem .5rem 1rem;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-  }
-  button{
-    display: block;
-    border-radius: .8rem;
-    font-size: 1rem;
-      
-    width: 130px;
-    height: 30px;
-    background: hsl(255, 42%, 33%);
-    color: white;
-    font-size: .8rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-   
-  
-  }
-}
-.flax {
-  margin-top: -1rem;
-  letter-spacing: 1px;
-  font-family: 'shadows into light';
-  font-size: 1.9rem;
-  display: flex;
-  flex-direction: column;
-  display: grid;
-    gap: 9px;
-    color:hsl(222,35%,77%);
-    grid-template-columns: repeat(aut-fit, 150px);
-
-}
-
-.top1{
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  
-}
-.top2{
-  font-size: 1.2rem;
-  
-  margin-top: 2rem;
-  
-}
-.top3{
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  margin-top: 2em;
-
-}
-.top4{
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  
-}
-.top5{
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  
-}
-.flax p{
-  
-  letter-spacing: .3px;
-    font-size: 1rem;
-    margin-top: rem;
-    
-      font-family: "Tajawal", sans-serif;
-    color: hsl(0, 0%, 65%);
-  
-}
-.foot{
-  margin-top: 4rem;
-  
-  font-family: shadows into light;
-
-  
-}
-.foot h4{
-  font-size: 1.3rem;
-  display: flex;
-  justify-content: end;
-  margin-bottom: -2rem;
-  margin-top: -.5rem;
-  margin-right: 2rem;
-  color:hsl(60, 56%, 31%);
-}
-.foot h5{
-  font-size: 1.3rem;
-  display: flex;
-  justify-content: end;
-  margin-bottom: -2rem;
-  
-  margin-right: 2rem;
-  color:hsl(60, 56%, 31%);
-}
-.foot h6{
-  font-size: 1.3rem;
- 
-  margin-right: 2rem;
-  color:hsl(60, 56%, 31%);
-}
-.foot p{
-  font-size: 1.2rem;
-  color: white;
-  letter-spacing: 1px;
-}
-.foot p span{
-  font-size: 2rem;
-}
-
-.correct{
-  background: green;
-  border-color: #00d397;
-  color: black;
-  
-
-}
-.wrong{
-  background: hsl(0, 100%, 30%);
-  border-color: #ff4a4a;
-}
-.size{
- width: 1285%;
-  right: rem;
-  left: rem;
-  height: 1239%;
-  position: relative;
- 
-  border-radius: 6px;
-  display: grid;
-  padding-right: 1.5rem;
-  justify-self: center;
-  background: hsl(220, 20%, 29%);
-}
-.sized{
-  width: 52%;
-  right: 8rem;
-  left: rem;
-  height: 22%;
-  position: absolute;
- 
-  border-radius: 4px;
-  display: grid;
-  
-  justify-self: center;
-  background: hsl(210, 80%, 89%); 
-}
-
-#uploadbtn2{
-  font-size: .7rem;
-  padding: .4rem .7rem .4rem .7rem;
-  border-radius: 7px;
-  margin-top: -2rem;
-  margin-left: 3rem;
-  border: none;
-  background-color: hsl(0, 0%, 90%);
-}
-#uploadcard{
-  background-color: hsl(0, 0%, 80%);
-  padding: .2rem 1.4rem .5rem .5rem;
-  padding-top: -1rem;
-  margin-top: 3rem;
-  margin-bottom: -3.2rem;
-  width: 7.3rem;
-  margin-left: .6rem;
-  border-radius: 4px;
-  height: 15rem;
-  margin-bottom: rem;
-}
-#uploadimg{
-  border-radius: 4px;
-  margin-left: -2rem;
-  
-}
-#uploadgrid{
-  display:grid ;
-  grid-template-columns:repeat(auto-fit, 123px);
-
-  gap:2.3rem;
-  justify-content: start;
-  margin-top: 8px;
-
-}
-#delet{
-     font-size: .87rem;
-    padding: .5rem .8rem .5rem .8rem;
-    border-radius: 6px;
-    
-    
-    top: rem;
-    border: none;
-    color: white;
-}
-#actions{
-  display: flex;
-  justify-content: end;
-}
 
 
-@media(min-width:50em) {
-  .wrapp{
-    margin-right: 1rem;
-  }
-  .header{
-      display: grid;
-      justify-content: center;
-      margin-left: 2rem;
-  }
-  #uploadgrid{
-      display:grid ;
-      grid-template-columns:repeat(4, 150px);
-    
-      gap:2.3rem;
-      justify-content: start;
-      margin-top: 8px;
-  }
-  #uploadcard{
-      margin-left: 2rem;
-  }
-  .wrappe{
-    margin-right: 4rem;
-  }
-
-}
-@media(max-width:65em){
-  .flex{
-    display: flex;
-      justify-content: space-between;
-  }
-}
 
 
-@media(max-width:50em){
+
 
 .App{
   display:block;
@@ -423,7 +142,7 @@ body {
   top:1.2rem
 }
   .mobilenav{
-    background-color: hsl(235, 30%, 90%);
+    background-color: hsl(235, 30%, 20%);
     padding: 1rem;
   
     font-size: 3rem;
@@ -455,27 +174,6 @@ body {
     
     
   }
-  .signin{
-    margin-left: .1rem;
-  }
-  .size{
-    width: 85%;
-    right: rem;
-    left: 2.9rem;
-    height: 39%;
-    position: absolute;
-   
-    border-radius: 6px;
-    display: grid;
-    padding-right: 1.5rem;
-    justify-self: center;
-    background: hsl(220, 20%, 29%);
-  }
-
- 
-
-}
-
 @media(min-width:80em) {
   .wrapp{
     margin-right: 13rem;

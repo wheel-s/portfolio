@@ -26,7 +26,7 @@ function App() {
        element={ <Lore/>}>
       </Route>
 
-      <Route path='/games'
+      <Route path='/contact'
        element={<Games/>}>
       </Route>
 
