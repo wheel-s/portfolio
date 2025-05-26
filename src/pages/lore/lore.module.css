@@ -2,6 +2,7 @@
 
 .roadmap{
     margin-top: 3rem;
+    justify-self: center;
       color: hsl(0, 0%, 75%);
 }
 
