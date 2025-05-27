@@ -11,7 +11,7 @@ const Lore = () => {
   return (
     <div className='wrapper'>
          <div> <Layout/></div>
-         <div className={lore.center}>
+         <section className={lore.center}>
          
         <div className={lore.header}>
           <div className={lore.roadmap}>
@@ -76,7 +76,7 @@ const Lore = () => {
           </div>
         </div>
         </div>
-        </div>
+        </section>
     </div>
   )
 }

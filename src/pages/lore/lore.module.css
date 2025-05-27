@@ -4,7 +4,7 @@
 .roadmap{
     margin-top: 3rem;
     margin-left: 2rem;
-    justify-self: center;
+    
       color: hsl(0, 0%, 75%);
 }
 .center{
@@ -173,7 +173,7 @@
     text-align: center;
     height: 9rem;
     width: 21rem;
-    justify-self: center
+    
     
 
 }
@@ -189,7 +189,7 @@ p{
       color: hsl(0, 0%, 65%);
 }
     .header{
-        justify-self: center;
+    
         margin-left: 2rem;
     }
     .flex{
