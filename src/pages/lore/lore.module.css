@@ -1,10 +1,15 @@
 
 
+
 .roadmap{
     margin-top: 3rem;
     margin-left: 2rem;
     justify-self: center;
       color: hsl(0, 0%, 75%);
+}
+.center{
+    display: flex;
+    justify-content: center;
 }
 
     p{

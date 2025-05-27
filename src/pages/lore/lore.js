@@ -11,6 +11,8 @@ const Lore = () => {
   return (
     <div className='wrapper'>
          <div> <Layout/></div>
+         <div className={lore.center}>
+         
         <div className={lore.header}>
           <div className={lore.roadmap}>
             
@@ -72,6 +74,7 @@ const Lore = () => {
              <h3> <NavLink to='/contact'>  @contact me</NavLink></h3>
               </p></div>
           </div>
+        </div>
         </div>
         </div>
     </div>
