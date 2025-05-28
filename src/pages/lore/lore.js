@@ -11,7 +11,7 @@ const Lore = () => {
   return (
     <div >
          <div> <Layout/></div>
-         <section className='middle'>
+         <section className='wrapper'>
          
         <div className={lore.header}>
           <div className={lore.roadmap}>

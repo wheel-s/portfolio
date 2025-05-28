@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 
 const Games = () => {
       return(
-    <div className='wrapper'>
+    <div >
      
         <div><Layout/></div>
       <div className={games.wrap}>

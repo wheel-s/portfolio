@@ -12,15 +12,12 @@ body {
   background-color: hsl(245, 50%, 18%);
 }
 
-.middle{
-  display: flex;
-  justify-content: center;
-}
+
 
 .wrapper{
 
   display: flex;
-  
+  justify-content: center;
   
   
   
