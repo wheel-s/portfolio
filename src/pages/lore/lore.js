@@ -9,9 +9,9 @@ import { NavLink } from 'react-router-dom'
 
 const Lore = () => {
   return (
-    <div className='wrapper'>
+    <div >
          <div> <Layout/></div>
-         <section className={lore.center}>
+         <section className='center'>
          
         <div className={lore.header}>
           <div className={lore.roadmap}>
