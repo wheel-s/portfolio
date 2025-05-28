@@ -12,7 +12,7 @@ body {
   background-color: hsl(245, 50%, 18%);
 }
 
-.center{
+.middle{
   display: flex;
   justify-content: center;
 }
