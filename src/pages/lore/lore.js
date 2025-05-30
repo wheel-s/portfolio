@@ -3,7 +3,7 @@ import lore from './lore.module.css'
 import Layout from '../../components/layout'
 import contact from '../../images/contact.png'
 import add from '../../images/about.png'
-
+import adds from '../../images/project.png'
 
 
 const Lore = () => {
@@ -126,7 +126,7 @@ const Lore = () => {
                  <p>Email: toshirou2002@gmail.com</p>
               </div>
                 <div className={lore.center}>
-                <img src={contact} width={30} height={30} alt={'yes'} className={lore.contacct}/>
+                <img src={adds} width={30} height={30} alt={'yes'} className={lore.contacct}/>
                 
                     <p>Address: Abuja, Orozo </p>
               </div>

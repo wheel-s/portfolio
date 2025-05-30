@@ -22,11 +22,16 @@
  }
 .card1{
 
-    padding: .5rem;
+    padding: 1rem;
     margin-bottom: 2.4rem;
     font-family: "Tajawal", sans-serif;
     text-align: center;
-
+    margin-left: 3rem;
+    font-size: 1rem;
+    margin-right: 3rem;
+    p{
+        font-size: 1.2rem;
+    }
  
 }
 .button{
@@ -126,7 +131,9 @@
     margin-top: 1rem;
     padding-top: 1.3rem;
     margin-bottom: 1.4rem;
-   
+   padding: 1rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
     text-align: center;
  
     p{
