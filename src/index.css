@@ -56,10 +56,7 @@ body {
 
   color: hsl(210, 54%, 49%);
 }
-.subtext{
-  font-size: .93rem;
-  font-weight: 379;
-}
+
 
 .links{
   font-size: 1.5rem;
@@ -83,9 +80,7 @@ body {
   padding-top: rem;
   color: white;
 }
-.mobilenav{
-  
-}
+
 .navbar{
   margin-top: -3rem;
   margin-left: 1rem;
@@ -131,10 +126,9 @@ body {
   left: 1.8rem;
 }
 .veri{
-  display: none;
-  font-size: 1rem;
+    font-size: 1rem;
   font-family:'shadows into light' ;
-  color:black;
+  color:hsl(190, 30%, 90%);
   margin-left: 1.1rem;
   margin-top: 1.2rem;
   margin-bottom: -3.5rem;
@@ -143,14 +137,19 @@ body {
 }
   .mobilenav{
     background-color: hsl(235, 30%, 20%);
-    padding: 1rem;
-  
+    padding: .8rem;
+    height: 5rem;
     font-size: 3rem;
     display: block;
     border-radius: 5px;
    
   
     
+  }
+  .yes{
+    transition: all ease-in-out 1s;
+    height: 12rem;
+    display: block;
   }
   .logos{
     background: hsl(0, 0%, 80%);
@@ -173,6 +172,48 @@ body {
     position: relative;
     
     
+  }
+  .flex{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    color: hsl(300, 47%, 35%);
+  }
+  .flax:hover{
+    color: white;
+  }
+  .flax{
+    display: flex;
+    margin-left: -1rem;
+    p{
+      margin-left: .7em;
+      font-size: 1.1rem;
+    }
+  }
+  .img{
+       background: hsl(0, 0%, 80%);
+    border-radius: 2rem;
+    margin-top: 1rem;
+ 
+  }
+  
+  .show{
+    visibility: hidden;
+    opacity: 0;
+    translate: 0 -8vh;
+    transition-property:  opacity display overlay;
+    transition-duration: 1s;
+    transition-behavior: allow-discrete;
+    
+  }
+  .shw{
+    visibility: visible;
+    opacity: 1;
+    translate: 0 0;
+    @starting-style{
+      opacity: 0;
+      translate: 0 -8vh;
+    }
   }
 @media(min-width:80em) {
   .wrapp{

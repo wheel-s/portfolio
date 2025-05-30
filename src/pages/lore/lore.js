@@ -1,9 +1,8 @@
 import React from 'react'
 import lore from './lore.module.css'
 import Layout from '../../components/layout'
-import { NavLink } from 'react-router-dom'
-
-
+import contact from '../../images/contact.png'
+import add from '../../images/about.png'
 
 
 
@@ -13,68 +12,132 @@ const Lore = () => {
          <div> <Layout/></div>
          <section className={lore.center}>
          
-        <div className={lore.header}>
+      
           <div className={lore.roadmap}>
             
-           <div className={lore.flex}>
+           <div >
             <div className={lore.card1}>
-              <p> A dynamic web developer/ engineer</p>
+              <p>   Hi👋🏼  i'm an evolving  Full-Stack Web Developer/ Engineer
+               passionate about creating and crafting  engaging applications with user-friendly interactions.</p>
+              <p>my gaol IS TO MAKE impact as a software developer solving problems with simple user interface(UI) </p>
               
               </div>
-            <div className={lore.card2}><p>passionate about creating engaging applications with user-friendly interactions</p></div>
-
-            </div>
-            <div className={lore.flex}>
-            <div className={lore.card3}><p>
-              Languages  
-                  <li> JavaScript(ES6+), HTML5, CSS3</li>
-                     <li>Java, Java-Fx</li>
-                
-              </p></div>
-            <div className={lore.card4}><p>
-                 Front-end Frameworks  
-                  <li> React.js, Next.js</li>
-                   
-              
-              </p></div>
-            </div>
-            <div className={lore.flex}>
-            <div className={lore.card5}><p>
-                 Back-end Technologies
-                  <li> Node.js, Express.js</li>
-                 
-              </p></div>
-            <div className={lore.card6}><p>
-                Databases
-                <li>MySQL, Mongodb </li>
-                <li> PostgresSQL, Firebase </li>
-              </p></div>
-            </div>
-            <div className={lore.flex}>
-            <div className={lore.card8}><p>
-                Hosting(cloud)
-                   <li>aws, Hostinger, render </li>
             
-              </p></div>
+          
+            <div className={lore.card3}>
+              
+                   <button className={lore.button}> projects</button>
+                   <div className={lore.mid}>
+                         <div className={lore.flex}>
+                     <p className={lore.po}>
+                      <span>my first website</span>
+                      <p>i was too optimistic when made it...
+                        (unfinished product).
+                      
+                          I used react.js, HTML5 and CSS3 
+                       
+
+                      </p>
+                     </p>
+                    </div>
+                   <div className={lore.flex}>
+                     <p className={lore.pa}>
+                      <span>pintrest-clone</span>
+                      <p>A simple CRUD web app  based on pintrest
+                        using JS, React, node.js and CSS3, MOongodb
+                        and PostgreSQL
+
+                      </p>
+                     </p>
+                    </div>
+                    <div className={lore.flex}>
+                     <p className={lore.pe}>
+                      <span>Games</span>
+                      <p>
+                        I'm currently working on several games
+                        like testris minecraft etc.
+                      using Java, Java-FX, springboot, my-SQL
+
+                      </p>
+                     </p>
+
+                  </div>
+                    </div>
+                
+              </div>
+            <div className={lore.card4}>
+              <h3>Skills</h3>
+              <hr></hr>
+              <div className={lore.min}>
+                  <p>JavaScript(ES6+), TypeScript, HTML5, CSS3</p>  
+               <p>React.js, Next.js</p>
+              </div>
+              <div className={lore.min}>
+                  <p>Node.js, Express.js</p>
+                 
+               <p>Mongodb,SQL, PostgreSQL, Firebase</p>
+              </div>
+             <div className={lore.mid}>
+                   <p>Java, Java-FX, Springboot</p>
+                    <p>AWS, Hostinger, render </p>
+             </div>
+             <div className={lore.mid}>
+            
+               <p>Troubleshooting and debugging</p>
+              <p>Up-to-date practices(Always learning)</p>
+                
+             </div>
+            
+             
+
+              </div>
+          
+          
+            <div className={lore.card5}>
+                
+                  
+               <h4>Work Experience</h4>
+              <p>Junior Web developer | Webzig (2022-2024)
+             <div className={lore.roles}>
+                
+                <p>Developed and maitained web applications improving UI/UX efficiency</p>
+                <p>Designed scalable RESTFUL APIs and database models</p>
+             </div>
+                
+                </p>
+                 
+              </div>
+          
+           
            
 
-            </div>
-            <div className={lore.flex}>
-            <div className={lore.card9}>
-              <p>Work Experience</p>
-              <li>Junior Web developer | Webzig</li>
-                Also worked on sevral personal applications clone
-                e.g pintrest, jumia 
-            </div>
-             <div className={lore.card7}><p>
+            
+         
+          
+             <div className={lore.card7}>
+              <p> Full-Stack  web Developer </p>
+              <hr></hr>
+              <div className={lore.center}>
+                <img src={contact} width={30} height={30} alt={'yes'}className={lore.contacct}/>
+                <p>Phone: (+234)7066926765</p>
+              </div>
+                <div className={lore.center}>
+                <img src={add} width={30} height={30} alt={'yes'} className={lore.contacct}/>
+                 <p>Email: toshirou2002@gmail.com</p>
+              </div>
+                <div className={lore.center}>
+                <img src={contact} width={30} height={30} alt={'yes'} className={lore.contacct}/>
+                
+                    <p>Address: Abuja, Orozo </p>
+              </div>
+             
+          
+
               
-                I actively keep up to date with the latest developments and best practices, seeking opportunities to expand skills sets and 
-                explore emerging technologies in web development landscape.
-              
-             <h3> <NavLink to='/contact'>  @contact me</NavLink></h3>
-              </p></div>
+             
+              </div>
           </div>
-        </div>
+        
         </div>
         </section>
     </div>

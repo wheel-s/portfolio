@@ -12,57 +12,90 @@
     justify-content: center;
     
 }
-
-    p{
+ p{
         font-size: 1.3rem;
             
      
-    }
+ }
+ hr{
+    width: 30rem;
+ }
 .card1{
 
-    padding-top: 1rem;
-    margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 39%);
-    border-radius: 1.7rem;
+    padding: .5rem;
+    margin-bottom: 2.4rem;
+    font-family: "Tajawal", sans-serif;
     text-align: center;
-    height: 8rem;
-    width: 20rem;
-    justify-self: center;
+
  
 }
-.card2{
-    
-    padding-top: .2rem;
-    padding-bottom: .42rem;
-     padding-left: .5rem;
-     padding-right: .5rem;
-    margin-bottom: 1.4rem;
-    border: 2px solid hsl(195, 53%, 39%);
-    color: hsl(195, 53%, 39%);
-    
-    border-radius: 1.7rem;
-    text-align: center;
-    height: 7rem;
-    width: 21.5rem;
-    justify-self: center;
-    
+.button{
+    background-color: transparent;
+    font-family: mv boli;
+    color: lightblue;
+    border-radius:1rem ;
+    margin-bottom: 1rem;
+    padding: .7rem 2rem .7rem 2rem;
 }
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.po{
+        background-image: url('../../images/project.png');
+    background-repeat: no-repeat;
+  
+    background-position: center;
+    border: 2px solid hsl(350, 100%, 93%);
+    border-radius: 1rem;
+    width: 18rem;
+    height: 15rem;
+    margin-bottom: .3rem;
+    color: lightblue;
+    font-family: shadows into light;
+    transform: rotateY(-18deg) rotateY(-16deg);
+}
+.pe{
+      background-image: url('../../images/project.png');
+    background-repeat: no-repeat;
+  
+    background-position: center;
+    border: 2px solid hsl(350, 100%, 93%);
+    border-radius: 1rem;
+    width: 18rem;
+    height: 15rem;
+    margin-bottom: .3rem;
+    color: white;
+    font-family: shadows into light;
+    transform: rotateY(-18deg) rotateY(-16deg); 
+}
+.pa{
+    background-image: url('../../images/logo.png');
+    background-repeat: no-repeat;
+
+    background-position: center;
+    border: 2px solid #add8e6;
+    border-radius: 1rem;
+    width: 18rem;
+    margin-bottom: .3rem;
+    height: 15rem;
+    color: pink;
+    font-family: shadows into light;
+    transform: rotateY(-18deg) rotateY(-16deg);
+}
+
 .card3{
-       
+  
+       justify-content: center;
     background-size: cover;
     padding-top: .5rem;
     margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 29%);
-    border-radius: 1.7rem;
+ 
     text-align: center;
-    height: 10rem;
-    width: 21rem;
-    justify-self: center;
     
-    li{
-        margin-top: .6rem;
-    }
     
+    
+  
 }
 .card3:hover{
      transform: rotateY(-8deg) rotateY(-10deg);
@@ -71,17 +104,19 @@
   
     padding-top: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 29%);
-    border-radius: 1.7rem;
+    margin-bottom: 1rem;
+   
     text-align: center;
-    height: 7rem;
-    width: 20rem;
-    justify-self: center;
+   p{
+    font-size: 1.1rem;
+    margin-bottom: 1.rem;
 
-      li{
-        margin-top: .6rem;
-    }
+   }
+
+  
+   
+
+    
     
     
 }
@@ -91,28 +126,28 @@
     margin-top: 1rem;
     padding-top: 1.3rem;
     margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 29%);
-    border-radius: 1.7rem;
+   
     text-align: center;
-    height: 7rem;
-    width: 22rem;
-    justify-self: center;
-
-      li{
-        margin-top: .6rem;
+ 
+    p{
+     font-size: 1.1rem;
+    margin-bottom: 1rem;
     }
     
+    h4{
+        font-size: 1.2rem;
+        color: gray;
+    }
     
 }
 .card6{
  
     padding-top: .4rem;
     margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 29%);
-    border-radius: 1.7rem;
+  
     text-align: center;
     height: 10rem;
-    width: 22rem;
+    width: rem;
     justify-self: center;
 
     
@@ -125,12 +160,11 @@
  
     padding-top: 1rem;
     margin-bottom: 1.4rem;
-    border: 3px solid hsl(195, 53%, 39%);
-    border-radius: 1.7rem;
+  
     text-align: center;
     height: 11.4rem;
-    width: 22.3rem;
-    font-size:em;
+    width: rem;
+
     justify-self: center;
       margin-bottom:2rem;
     
@@ -151,29 +185,26 @@
 }
 .card8{
      
-    background-size: cover;
     padding-top: 1rem;
-    padding-left: rem;
+   
     margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 29%);
-    border-radius: 1.7rem;
+    
     text-align: center;
     height: 7rem;
-    width: 20rem;
+   
 
     justify-self: center;
     
 }
 .card9{
 
-    padding-top: .4rem;
+    
     padding:.5rem ;
     margin-bottom: 1.4rem;
-    border: .1px solid hsl(195, 53%, 29%);
-    border-radius: 1.7rem;
+  
     text-align: center;
     height: 9rem;
-    width: 21rem;
+    width: rem;
     
     
 
@@ -181,40 +212,37 @@
 p{
     margin-bottom: -.2rem;
 }
+.contacct{
+   position: relative;
+   right: .2rem;
+   top: 1rem;
+}
+span{
+    margin-bottom: rem;
+}
 
 @media(min-width:50em){
     
 .roadmap{
     margin-top: 3rem;
-    margin-left: 2rem;
+    margin-left: rem;
       color: hsl(0, 0%, 65%);
 }
-    .header{
+
+.mid{
+    display: flex;
+    justify-content: center;
+}
+.min{
+    display: flex;
     
-        margin-left: 2rem;
+    justify-content: center;
+}
+.card4{
+    p{
+        margin-left: 1rem;
+        margin-right: 4rem;
     }
-    .flex{
-        display: flex;
-        
-    }
-    .card2{
-        margin-left: 2rem;
-    }
-     .card4{
-        margin-left: 2rem;
-    }
-      .card6{
-        margin-left: 2rem;
-    }
-    .card7{
-        margin-left: 2rem;
-        margin-top: rem;
-    }
-    .card9{
-        margin-top: 2rem;
-    }
-      .card8{
-        margin-left: 10rem;
-        justify-self: center;
-    }
+}
+
 }
