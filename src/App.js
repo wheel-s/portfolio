@@ -2,7 +2,7 @@ import {Route, Routes} from 'react-router-dom'
 
 
 import Lore from './pages/lore/lore'
-import Games from './pages/games.js/games'
+
 
 
 
@@ -26,9 +26,7 @@ function App() {
        element={ <Lore/>}>
       </Route>
 
-      <Route path='/contact'
-       element={<Games/>}>
-      </Route>
+     
 
 
 

@@ -19,7 +19,7 @@ const Lore = () => {
             <div className={lore.card1}>
               <p>   Hi👋🏼  i'm an evolving  Full-Stack Web Developer/ Engineer
                passionate about creating and crafting  engaging applications with user-friendly interactions.</p>
-              <p>my gaol IS TO MAKE impact as a software developer solving problems with simple user interface(UI) </p>
+              <p>my gaol is to MAKE impact as a software developer solving problems with simple user interface(UI) </p>
               
               </div>
             
@@ -30,7 +30,7 @@ const Lore = () => {
                    <div className={lore.mid}>
                          <div className={lore.flex}>
                      <p className={lore.po}>
-                      <span>my first website</span>
+                      <span>my first react-app </span>
                       <p>i was too optimistic when made it...
                         (unfinished product).
                       
@@ -42,12 +42,20 @@ const Lore = () => {
                     </div>
                    <div className={lore.flex}>
                      <p className={lore.pa}>
-                      <span>pintrest-clone</span>
-                      <p>A simple CRUD web app  based on pintrest
-                        using JS, React, node.js and CSS3, MOongodb
-                        and PostgreSQL
+                      <span className={lore.name}>pintrest Clone</span>
+                      <p>A full-stack web application copying Pintrest's core functionalities
+                        , including user authntication, image sharing, search and account management.
+                        Developed to demonstrate proficiency in modern web development....
+
 
                       </p>
+                        <div className={lore.tech}>
+                          <span>React.js, Node.js</span>
+                          <span>Mongodb, PostgreSQL</span>
+                        
+                        </div>
+                          <a href='#'>Live Demo</a>
+                        
                      </p>
                     </div>
                     <div className={lore.flex}>

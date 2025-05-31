@@ -3,7 +3,7 @@
 
 .roadmap{
     margin-top: 3rem;
-    margin-left: rem;
+   
     
       color: hsl(0, 0%, 75%);
 }
@@ -30,7 +30,7 @@
     font-size: 1rem;
     margin-right: 3rem;
     p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
  
 }
@@ -56,7 +56,7 @@
     width: 18rem;
     height: 15rem;
     margin-bottom: .3rem;
-    color: lightblue;
+    color: hsl(0, 0%, 80%);
     font-family: shadows into light;
     transform: rotateY(-18deg) rotateY(-16deg);
 }
@@ -67,8 +67,8 @@
     background-position: center;
     border: 2px solid hsl(350, 100%, 93%);
     border-radius: 1rem;
-    width: 18rem;
-    height: 15rem;
+    width: 20.5rem;
+    height: 20rem;
     margin-bottom: .3rem;
     color: white;
     font-family: shadows into light;
@@ -81,14 +81,27 @@
     background-position: center;
     border: 2px solid #add8e6;
     border-radius: 1rem;
-    width: 18rem;
+    width: 20.5rem;
+    padding: .8rem;
     margin-bottom: .3rem;
-    height: 15rem;
-    color: pink;
-    font-family: shadows into light;
+    height: 23rem;
+    color: hsl(39, 77%, 88%);
+  
     transform: rotateY(-18deg) rotateY(-16deg);
-}
 
+    a{
+        text-decoration: none;
+        color: #add8e6;
+        margin-top: 2rem;
+    }
+   
+}
+.name{
+    color:hsl(0, 80%, 77%);
+}
+.tech{
+    color: hsl(0, 0%, 100%);
+}
 .card3{
   
        justify-content: center;
@@ -128,52 +141,41 @@
 .card5{
      
     background-size: cover;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-top: 1.3rem;
     margin-bottom: 1.4rem;
    padding: 1rem;
    margin-left: 2rem;
    margin-right: 2rem;
     text-align: center;
- 
+    
     p{
      font-size: 1.1rem;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     }
     
     h4{
         font-size: 1.2rem;
-        color: gray;
+        color: hsl(39, 77%, 86%);
     }
     
 }
-.card6{
- 
-    padding-top: .4rem;
-    margin-bottom: 1.4rem;
-  
-    text-align: center;
-    height: 10rem;
-    width: rem;
-    justify-self: center;
 
-    
-      li{
-        margin-top: .5rem;
-    }
-    
-}
 .card7{
  
     padding-top: 1rem;
     margin-bottom: 1.4rem;
   
     text-align: center;
-    height: 11.4rem;
-    width: rem;
-
-    justify-self: center;
-      margin-bottom:2rem;
+        background-color: hsl(207, 80%, 8%);
+        padding: rem;
+        width: 100%;
+        padding-bottom: 1rem;
+        margin-bottom: -11rem;
+        margin-top: -1rem;
+      margin-bottom:-.3rem;
     
     h3{
         margin-bottom: 1rem;
@@ -184,38 +186,13 @@
     }
     p{
         font-size: 1.1rem;
-        color: hsl(195, 53%, 39%);
+        color: hsl(195, 53%, 29%);
             
 
     }
     
 }
-.card8{
-     
-    padding-top: 1rem;
-   
-    margin-bottom: 1.4rem;
-    
-    text-align: center;
-    height: 7rem;
-   
 
-    justify-self: center;
-    
-}
-.card9{
-
-    
-    padding:.5rem ;
-    margin-bottom: 1.4rem;
-  
-    text-align: center;
-    height: 9rem;
-    width: rem;
-    
-    
-
-}
 p{
     margin-bottom: -.2rem;
 }
@@ -224,9 +201,7 @@ p{
    right: .2rem;
    top: 1rem;
 }
-span{
-    margin-bottom: rem;
-}
+
 
 @media(min-width:50em){
     
@@ -251,5 +226,6 @@ span{
         margin-right: 4rem;
     }
 }
+
 
 }

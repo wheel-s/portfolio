@@ -29,8 +29,9 @@ const Layout = () => {
         }
         const About =()=>{
           
+        
            window.scrollTo({
-            top:16000,
+            top:300,
             left:0,
             behavior:'smooth'
 
@@ -39,7 +40,7 @@ const Layout = () => {
         const Project=()=>{
     
            window.scrollTo({
-            top:700,
+            top:900,
             left:0,
             behavior:'smooth'
 
@@ -49,7 +50,7 @@ const Layout = () => {
         const Contact =()=>{
     
            window.scrollTo({
-            top:1000,
+            top:1800,
             left:0,
             behavior:'smooth'
 
@@ -79,31 +80,31 @@ const Layout = () => {
           
            
           </div>
-          <div className='show' id='shw'>
-           <section className='flex'>
+          <div className='show' id='shw' onClick={show}>
+           <section className='flex' id='bar'>
             <div className='flax'id='home' onClick={Home}>
            <img src={home} alt={'yes'} width={30} height={30} className='img' onClick={show}></img>
                <p>Home</p>
             </div>
               <div className='flax' id='about' onClick={Contact}>
-           <img src={logo} alt={'yes'} width={30} height={30} className='img' onClick={show}></img>
-               <p>About</p>
-            </div>
-
-        
-           </section>
-               <section className='flex' onClick={Project}>
-            <div className='flax'>
-           <img src={project} alt={'yes'} width={30} height={30} className='img' onClick={show}></img>
-               <p>projects</p>
-            </div>
-              <div className='flax'onClick={About}>
            <img src={contact} alt={'yes'} width={30} height={30} className='img' onClick={show}></img>
                <p>contact</p>
             </div>
 
-
+        
            </section>
+               <section className='flex' >
+            <div className='flax' onClick={Project}>
+           <img src={logo} alt={'yes'} width={30} height={30} className='img' onClick={show}></img>
+               <p>About</p>
+            </div>
+              <div className='flax'onClick={About}>
+           <img src={project} alt={'yes'} width={30} height={30} className='img' onClick={show}></img>
+               <p>Projects</p>
+            </div>
+            </section>
+
+         
            </div>
 
         </div>
