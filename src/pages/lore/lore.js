@@ -30,12 +30,11 @@ const Lore = () => {
                    <div className={lore.mid}>
                          <div className={lore.flex}>
                      <p className={lore.po}>
-                      <span>my first react-app </span>
-                      <p>i was too optimistic when made it...
-                        (unfinished product).
+                      <p>my First React project </p>
+                      <p> 
+                           <a href='https://github.com/wheel-s/verizon'>Live Demo</a>
+                           
                       
-                          I used react.js, HTML5 and CSS3 
-                       
 
                       </p>
                      </p>
@@ -50,23 +49,23 @@ const Lore = () => {
 
                       </p>
                         <div className={lore.tech}>
-                          <span>React.js, Node.js</span>
-                          <span>Mongodb, PostgreSQL</span>
+                          <span>React.js, Node.js,</span>
+                          <span> Mongodb, PostgreSQL</span>
                         
                         </div>
-                          <a href='#'>Live Demo</a>
+                          <a href='https://github.com/wheel-s/verizon'>Live Demo</a>
                         
                      </p>
                     </div>
                     <div className={lore.flex}>
                      <p className={lore.pe}>
-                      <span>Games</span>
+                      <p>Games</p>
                       <p>
-                        I'm currently working on several games
-                        like testris minecraft etc.
-                      using Java, Java-FX, springboot, my-SQL
+                     A full-stack, 'mario'-themed craft and puzzle game, developed
+                     using **JavaFx** and **springboot**
 
                       </p>
+                          <a href='#'>Live Demo</a>
                      </p>
 
                   </div>
@@ -77,13 +76,13 @@ const Lore = () => {
               <h3>Skills</h3>
               <hr></hr>
               <div className={lore.min}>
-                  <p>JavaScript(ES6+), TypeScript, HTML5, CSS3</p>  
-               <p>React.js, Next.js</p>
+                  <p>JavaScript(ES6+), TypeScript, HTML5, CSS3, TailwindCSS</p>  
+               <p>React.js, Next.js, vue.js, Angular</p>
               </div>
               <div className={lore.min}>
                   <p>Node.js, Express.js</p>
                  
-               <p>Mongodb,SQL, PostgreSQL, Firebase</p>
+               <p>Mongodb, mySQL, PostgreSQL, Firebase</p>
               </div>
              <div className={lore.mid}>
                    <p>Java, Java-FX, Springboot</p>
@@ -123,7 +122,7 @@ const Lore = () => {
          
           
              <div className={lore.card7}>
-              <p> Full-Stack  web Developer </p>
+              <p> Mid-level Full-Stack  web Developer </p>
               <hr></hr>
               <div className={lore.center}>
                 <img src={contact} width={30} height={30} alt={'yes'}className={lore.contacct}/>

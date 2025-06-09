@@ -31,7 +31,7 @@ const Layout = () => {
           
         
            window.scrollTo({
-            top:300,
+            top:400,
             left:0,
             behavior:'smooth'
 
@@ -40,7 +40,7 @@ const Layout = () => {
         const Project=()=>{
     
            window.scrollTo({
-            top:900,
+            top:1300,
             left:0,
             behavior:'smooth'
 
@@ -50,7 +50,7 @@ const Layout = () => {
         const Contact =()=>{
     
            window.scrollTo({
-            top:1800,
+            top:2300,
             left:0,
             behavior:'smooth'
 
@@ -74,6 +74,25 @@ const Layout = () => {
              <img src={more} alt={'yes'} width={65} height={65} className='logos' onClick={show}></img>
              <div className='bubar'>
                 
+             </div>
+             <div className='more'>
+            <div className='flax' onClick={Home}>
+           <img src={home} alt={'yes'} width={30} height={30} className='img' ></img>
+               <p>Home</p>
+            </div>
+              <div className='flax' onClick={Project}>
+           <img src={logo} alt={'yes'} width={30} height={30} className='img'></img>
+               <p>About</p>
+            </div>
+        
+              <div className='flax'onClick={About}>
+           <img src={project} alt={'yes'} width={30} height={30} className='img'></img>
+               <p>Projects</p>
+            </div>
+               <div className='flax'  onClick={Contact}>
+           <img src={contact} alt={'yes'} width={30} height={30} className='img' ></img>
+               <p>contact</p>
+            </div>
              </div>
                         
            </div>

@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 
-  background-color:hsl(190, 14%, 22%);
+  background-color:hsl(190, 6%, 7%);
 }
 
 
@@ -127,7 +127,6 @@ body {
 }
 .veri{
     font-size: 1rem;
-  font-family:'shadows into light' ;
   color:hsl(190, 30%, 90%);
   margin-left: 1.1rem;
   margin-top: 1.2rem;
@@ -136,7 +135,7 @@ body {
   top:1.2rem
 }
   .mobilenav{
-    background-color: hsl(200, 14%, 32%);
+    background-color: hsl(62, 3%, 30%);
     padding: .8rem;
     height: 5rem;
     font-size: 3rem;
@@ -147,7 +146,7 @@ body {
     
   }
   .yes{
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out .9s;
     height: 12rem;
     display: block;
   }
@@ -196,7 +195,9 @@ body {
     margin-top: 1rem;
  
   }
-  
+  .more{
+    display: none;
+  }
   .show{
     visibility: hidden;
     opacity: 0;
@@ -221,4 +222,29 @@ body {
   }
 
 }
+@media(min-width:50em) {
+  .wrapp{
+    margin-right: 13rem;
+  }
+  .logos{
+    display: none;
+  }
+  .veri{
+    display: none;
+  }
+  .show{
+    display: none;
+  }
+  .yes{
+    height: 6rem;
+  }
+  .more{
+    display: flex;
+    gap: 3rem;
+    margin-right: 1rem;
+  }
+
+}
+
+
 

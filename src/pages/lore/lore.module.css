@@ -49,35 +49,48 @@
 .po{
         background-image: url('../../images/project.png');
     background-repeat: no-repeat;
-  
     background-position: center;
-    border: 2px solid hsl(350, 100%, 93%);
+    border: 2px solid hsl(310, 10%, 88%);
     border-radius: 1rem;
-    width: 18rem;
-    height: 15rem;
+    width: 20rem;
+    height: 10rem;
     margin-bottom: .3rem;
     color: hsl(0, 0%, 80%);
-    font-family: shadows into light;
     transform: rotateY(-18deg) rotateY(-16deg);
+      a{
+        text-decoration: none;
+        color: #add8e6;
+        margin-top: 2rem;
+        }
 }
 .pe{
       background-image: url('../../images/project.png');
-    background-repeat: no-repeat;
-  
+    background-repeat: no-repeat;  
     background-position: center;
     border: 2px solid hsl(350, 100%, 93%);
     border-radius: 1rem;
-    width: 20.5rem;
-    height: 20rem;
+    width: 21rem;
+    height: 17rem;
     margin-bottom: .3rem;
     color: white;
-    font-family: shadows into light;
-    transform: rotateY(-18deg) rotateY(-16deg); 
+        span{
+            margin-top: 2rem;
+            color: #000;
+        }
+        a{
+        text-decoration: none;
+        color: #add8e6;
+        margin-top: 2rem;
+        }
+        p{
+            margin-top: 2rem;
+        }
+   
 }
 .pa{
+    
     background-image: url('../../images/logo.png');
     background-repeat: no-repeat;
-
     background-position: center;
     border: 2px solid #add8e6;
     border-radius: 1rem;
@@ -86,7 +99,6 @@
     margin-bottom: .3rem;
     height: 23rem;
     color: hsl(39, 77%, 88%);
-  
     transform: rotateY(-18deg) rotateY(-16deg);
 
     a{
@@ -104,20 +116,13 @@
 }
 .card3{
   
-       justify-content: center;
+    justify-content: center;
     background-size: cover;
     padding-top: .5rem;
     margin-bottom: 1.4rem;
- 
-    text-align: center;
-    
-    
-    
-  
+    text-align: center;    
 }
-.card3:hover{
-     transform: rotateY(-8deg) rotateY(-10deg);
-}
+
 .card4{
   
     padding-top: 1rem;
@@ -127,7 +132,7 @@
     text-align: center;
    p{
     font-size: 1.1rem;
-    margin-bottom: 1.rem;
+    margin-bottom: 1rem;
 
    }
 
@@ -169,12 +174,12 @@
     margin-bottom: 1.4rem;
   
     text-align: center;
-        background-color: hsl(207, 80%, 8%);
+        background-color: hsl(207, 20%, 19%);
         
         width: 100%;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        margin-bottom: -11rem;
+        margin-bottom: 3rem;
         margin-top: -1rem;
       margin-bottom:-.3rem;
     
@@ -187,7 +192,7 @@
     }
     p{
         font-size: 1.1rem;
-        color: hsl(195, 53%, 29%);
+        color: hsl(195, 53%, 89%);
             
 
     }
