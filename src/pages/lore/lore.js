@@ -32,7 +32,7 @@ const Lore = () => {
                      <p className={lore.po}>
                       <p>my First React project </p>
                       <p> 
-                           <a href='https://github.com/wheel-s/verizon'>Live Demo</a>
+                           <a href='https://github.com/wheel-s/-toshiro-'>Live Demo</a>
                            
                       
 
@@ -76,7 +76,8 @@ const Lore = () => {
               <h3>Skills</h3>
               <hr></hr>
               <div className={lore.min}>
-                  <p>JavaScript(ES6+), TypeScript, HTML5, CSS3, TailwindCSS</p>  
+                  <p>HTML5, CSS3, TailwindCSS</p>  
+              <p>JavaScript(ES6+), TypeScript,</p>
                <p>React.js, Next.js, vue.js, Angular</p>
               </div>
               <div className={lore.min}>

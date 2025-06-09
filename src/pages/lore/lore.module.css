@@ -3,9 +3,7 @@
 
 .roadmap{
     margin-top: 3rem;
-   
-    
-      color: hsl(0, 0%, 75%);
+    color: hsl(0, 0%, 75%);
 }
 .center{
     display: flex;
@@ -14,8 +12,6 @@
 }
  p{
         font-size: 1.3rem;
-            
-     
  }
  hr{
     width: 30rem;
@@ -80,10 +76,14 @@
         a{
         text-decoration: none;
         color: #add8e6;
-        margin-top: 2rem;
+        margin-top: 1rem;
         }
         p{
-            margin-top: 2rem;
+            font-size: 1.4rem;
+            margin-top: 1.4rem;
+            margin-left: .5rem;
+            margin-right: .5rem;
+            margin-bottom: .45rem;
         }
    
 }
@@ -207,7 +207,11 @@ p{
    right: .2rem;
    top: 1rem;
 }
-
+@media(max-width:34em){
+    hr{
+        width: 18rem;
+    }
+}
 
 @media(min-width:50em){
     
