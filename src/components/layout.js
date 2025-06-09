@@ -67,7 +67,7 @@ const Layout = () => {
           <div className='nav'>
             
 
-            <p className='nam'>my-portfolio</p>
+            <p className='nam'>My-portfolio</p>
             <div>
       
              <p className='veri'>map</p>
