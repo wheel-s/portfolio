@@ -3,81 +3,22 @@ body {
   height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-
   background-color:hsl(190, 6%, 7%);
 }
 
 
-
-.wrapper{
-
-  display: flex;
-  justify-content: center;
-  
-  
-  
-}
-
-.wrappe{
-  display: flex;
-
- justify-content: space-between;
-}
-
-
-.wrapp{
-  display: flex;
-  margin-right: rem;
-  margin-bottom: 3rem;
-  margin-left: rem;
-  margin-top: .3rem;
-  
-
-}
-
-
-.home-header{
- 
-  margin-left: 2rem;
-  margin-top: .7rem;
-  font-size: 1rem;
-  
-}
-.headerbox{
-  font-size: 1.5rem;
-}
 .name{
   margin-left: 1rem;
-
   color: hsl(210, 54%, 49%);
 }
 
-
-.links{
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-
-
-
-}
-.active{
-  background-color: antiquewhite;
-  border-radius: 6px;
-  padding: .5rem 1.6rem .5rem 1.5rem;
-  margin-right: .7rem;
-
-}
 .nam{
   font-size: 1.8rem;
-      
- font-family: "Tajawal", sans-serif;
-  padding-top: rem;
   color: white;
 }
 
@@ -89,42 +30,10 @@ body {
   
 }
 
-
-
-
-
-
-.App{
-  display:block;
-}
-
-
-.wrapper{
-  
-  display: block;
-}
-.wrappe{
-  display: block;
-}
-  .wrapp{
-  margin-left: -.4rem;
-
-    
-}
-
-.flex{
-  display: block;
-}
-.layout{
-  position: relative;
-}
 .nam{
-  font-size: 1.4rem;
-    font-family: "Tajawal", sans-serif;
+  font-size: 1.6rem;
   font-family: sans-serf;
-  position: relative;
-  top:rem;
-  left: 1.8rem;
+  margin-left: 1.8rem;
 }
 .veri{
     font-size: 1rem;
@@ -142,10 +51,7 @@ body {
     height: 5rem;
     font-size: 3rem;
     display: block;
-    border-radius: 5px;
-   
-  
-    
+    border-radius: 5px;  
   }
   .yes{
     transition: all ease-in-out .9s;
@@ -157,7 +63,6 @@ body {
     border-radius: 2rem;
     margin-top: .3rem;
     margin-left: 3.5rem;
-
   }
 
   .nav{
@@ -168,12 +73,10 @@ body {
     margin-top: .9rem;
   }
   .mubible{
-    
     display: none;
     position: relative;
-    
-    
   }
+
   .flex{
     display: flex;
     justify-content: space-around;
@@ -192,10 +95,9 @@ body {
     }
   }
   .img{
-       background: hsl(0, 0%, 80%);
+    background: hsl(0, 0%, 80%);
     border-radius: 2rem;
     margin-top: 1rem;
- 
   }
   .more{
     display: none;
@@ -206,9 +108,9 @@ body {
     translate: 0 -8vh;
     transition-property:  opacity display overlay;
     transition-duration: 1s;
-    transition-behavior: allow-discrete;
-    
+    transition-behavior: allow-discrete;   
   }
+
   .shw{
     visibility: visible;
     opacity: 1;
@@ -218,16 +120,8 @@ body {
       translate: 0 -8vh;
     }
   }
-@media(min-width:80em) {
-  .wrapp{
-    margin-right: 13rem;
-  }
 
-}
 @media(min-width:50em) {
-  .wrapp{
-    margin-right: 13rem;
-  }
   .logos{
     display: none;
   }

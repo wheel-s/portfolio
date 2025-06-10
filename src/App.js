@@ -1,39 +1,12 @@
-import {Route, Routes} from 'react-router-dom'
-
-
-import Lore from './pages/lore/lore'
-
-
-
-
-
+import Lore from './components/setup'
+import Layout from './components/layout'
 
 
 function App() {
-
-
-  
- 
   return (
-    <div className="App">
-     
-       
-
-      <Routes>
-   
-    
-      <Route path='/'
-       element={ <Lore/>}>
-      </Route>
-
-     
-
-
-
-
-
-    
-    </Routes>
+    <div className="App">  
+     <Layout/> 
+    <Lore/>
   
     </div>
   );
