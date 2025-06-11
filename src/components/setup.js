@@ -29,7 +29,7 @@ const Lore = () => {
                     <div className={lore.po}>
                     <p>my First React project </p>
                     <p> 
-                    <a href='https://github.com/wheel-s/-toshiro-'>Live Demo</a>
+                    <a href='https://github.com/wheel-s/-toshiro-'>View Live Demo</a>
                       </p>
                      </div>
                   </div>
@@ -43,7 +43,7 @@ const Lore = () => {
                       </p>
                     <div className={lore.tech}>
                       <span>React.js, Node.js,</span>
-                      <span> Mongodb, PostgreSQL</span>  
+                      <span> Mongodb, MySQL</span>  
                     </div>
                       <a href='https://github.com/wheel-s/verizon'> View Live Demo</a>   
                      </div>
@@ -52,11 +52,13 @@ const Lore = () => {
 
                     <div className={lore.flex}>
                      <div className={lore.pe}>
-                      <p>Games</p>
+                      <p>AI-Powered Event planner</p>
                       <p>
-                     A full-stack, 'mario'-themed craft and puzzle game, developed
-                     using **JavaFx** and **springboot**
+                     Developed to simplify and enhance planning of family event for casual-get together ,
+                     using Artificial intelligence  to organize amily gatherings into an enjoyabe experience
+                     
                       </p>
+                      <p>TypeScript, React.js, Springboot, PostgreSQL, mongodb</p>
                         <a href='https://github.com'>View Live Demo</a>
                       </div>
 
@@ -81,7 +83,7 @@ const Lore = () => {
 
              <div className={lore.mid}>
                    <p>Java, Java-FX, Springboot</p>
-                   <p>AWS, Hostinger, render </p>
+                   <p>AWS, Azure, Hostinger, render </p>
              </div>
 
              <div className={lore.mid}>
